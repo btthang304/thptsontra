@@ -1,0 +1,192 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(248, 244, 244);
+}
+.container{
+    max-width: 100%;
+    font-size: 10px;
+    
+}
+.container > header{
+    background-image: url('./img/412944987_875326784380045_7060610119393587255_n.jpg');
+    height: 200px;
+    background-size:  1500px;
+    background-repeat: no-repeat; 
+    margin-bottom: 0px;
+}
+.container > header a{
+    text-decoration: none;
+}
+.container-header{
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px rgb(231, 130, 130);
+    background-color: rgba(223, 228, 61, 0.3);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 14px 0px 0px ;
+    border-radius: 0px 0px 0px 30px;
+    float: right;
+    text-align: right;
+}
+.container-header > a:visited{
+    color:rgb(173, 25, 25)
+}
+.container-header > a:hover{
+    color:rgb(18, 108, 186)
+
+}
+.logo{
+    background-color: white;
+    padding-left: 50px ;
+}
+.container > nav{
+    background-color: rgb(150, 238, 255) ;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 3px groove rgb(255, 210, 76);
+    box-sizing: border-box;
+    font-variant: small-caps;
+    font-family: cursive ;
+}
+.menu >ul {
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;  
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.menu ul > li > a{
+    color: rgb(22, 97, 126);
+    text-decoration: none;
+    display: block;
+}
+.menu a:hover{
+    color:rgb(0, 34, 255);
+}
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 50px;
+}
+.menu>ul ul{
+    display: none;    
+    position:absolute;
+
+}
+.menu li:hover >ul{ 
+    display: block;
+}
+
+.min_menu{
+    box-shadow: 0px 0px 15px rgb(187, 184, 184);
+    border-radius:5px;
+    background-color:white;
+    width:100%;
+    padding-left: 0px;
+    margin:0px;
+    list-style:none;
+    text-align:left;
+    
+}
+.min_menu a:hover{
+    color: rgb(235, 83, 41);
+    background-color: rgb(11, 12, 11);
+    background: url(https://th.bing.com/th/id/R.455effbb31fda2cddd3485c6db511639?rik=CT9OGqxlX8CFeg&pid=ImgRaw&r=0) no-repeat left center;
+    background-size: 15px;
+}
+ul.min_menu > li > a{
+    color: rgb(50, 54, 55);
+    border-bottom: 2px solid rgb(184, 177, 177);
+    line-height: 30px ;
+    background:url(https://th.bing.com/th/id/R.add91447de747c24518f9bc53874bfd4?rik=0SwmwcxpG0Ej9w&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fred-check-mark-transparent%2fred-check-mark-transparent-6.png&ehk=EVOlCrmOUan83Hlv1oSdj1oRYV68Pf6XyzLBESWbzEE%3d&risl=&pid=ImgRaw&r=0) no-repeat left center; 
+    background-size: 15px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.container > article{
+    background-color: rgb(255, 255, 255);
+    width: 68%;
+    float: right;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    margin:0% 0.5% 1% 1%  ;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgb(145, 136, 136);
+    padding: 0px 30px 20px 50px ;
+    font-size: 30px;
+}  
+.container > aside{
+    font-size: 10px;
+
+}
+
+.aside-1{
+    padding: 0px 20px ;    
+    margin-left: 0.5%;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    background-color: aliceblue;   
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(162, 160, 160);
+}
+
+.aside-2{
+    padding: 0px 20px ;    
+    margin-left: 0.5%;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    background-color: aliceblue;   
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(162, 160, 160);
+}
+
+.aside-3{
+    padding:0px ;    
+    margin-left: 0.5%;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    height: 600px;
+
+
+}
+.container > footer{
+    background-image: url('./img/hinh-nen-full-hd-1080-bai-bien-xanh-ngat_022854175-1.jpg');
+    clear: both;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    color: black;
+    border-top: 4px  rgb(235, 203, 203);
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style:solid ;
+}
+
+.iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;    
+}
+
+.footer-ul{
+    margin: 0px 120px 0px 40px;
+    line-height: 40px;
+    font-size: 20px;
+    width: 400px;
+    float: right;
+}
+
